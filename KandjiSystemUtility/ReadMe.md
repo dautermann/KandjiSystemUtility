@@ -11,4 +11,3 @@ But I had enough fun just porting some Objective-C low level system code over to
 1) make the three segments totally resizeable (the first and second sections are fixed heights)
 
 2) put something useful in the headerview of the cpu usage, or switch the progress indicators to level indicators with colors, like as in the disk usage view.
-

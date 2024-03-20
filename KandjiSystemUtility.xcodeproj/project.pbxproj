@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F683182B875B0200AC3697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F683172B875B0200AC3697 /* AppDelegate.swift */; };
+		25F6831A2B875B0200AC3697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F683192B875B0200AC3697 /* ViewController.swift */; };
+		25F6831C2B875B0300AC3697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F6831B2B875B0300AC3697 /* Assets.xcassets */; };
+		25F6831F2B875B0300AC3697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F6831D2B875B0300AC3697 /* Main.storyboard */; };
+		25F683292B875BE600AC3697 /* CPUUsageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F683282B875BE600AC3697 /* CPUUsageDataSource.swift */; };
+		25F6832B2B8760BA00AC3697 /* CPUUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6832A2B8760BA00AC3697 /* CPUUsageView.swift */; };
+		25F6832D2B87C7AB00AC3697 /* MemoryUsageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6832C2B87C7AB00AC3697 /* MemoryUsageDataSource.swift */; };
+		25F6832F2B87D52400AC3697 /* MemoryUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6832E2B87D52400AC3697 /* MemoryUsageView.swift */; };
+		25F683312B88B61500AC3697 /* ConnectedVolumesUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F683302B88B61500AC3697 /* ConnectedVolumesUsageView.swift */; };
+		25F683332B88B7B700AC3697 /* ConnectedVolumesUsageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F683322B88B7B700AC3697 /* ConnectedVolumesUsageDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25F683142B875B0200AC3697 /* KandjiSystemUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KandjiSystemUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F683172B875B0200AC3697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F683192B875B0200AC3697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25F6831B2B875B0300AC3697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F6831E2B875B0300AC3697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F683202B875B0300AC3697 /* KandjiSystemUtility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KandjiSystemUtility.entitlements; sourceTree = "<group>"; };
+		25F683282B875BE600AC3697 /* CPUUsageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUUsageDataSource.swift; sourceTree = "<group>"; };
+		25F6832A2B8760BA00AC3697 /* CPUUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUUsageView.swift; sourceTree = "<group>"; };
+		25F6832C2B87C7AB00AC3697 /* MemoryUsageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryUsageDataSource.swift; sourceTree = "<group>"; };
+		25F6832E2B87D52400AC3697 /* MemoryUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryUsageView.swift; sourceTree = "<group>"; };
+		25F683302B88B61500AC3697 /* ConnectedVolumesUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedVolumesUsageView.swift; sourceTree = "<group>"; };
+		25F683322B88B7B700AC3697 /* ConnectedVolumesUsageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedVolumesUsageDataSource.swift; sourceTree = "<group>"; };
+		25F69D282B89366500F257AB /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = KandjiSystemUtility/ReadMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F683112B875B0200AC3697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F6830B2B875B0200AC3697 = {
+			isa = PBXGroup;
+			children = (
+				25F69D282B89366500F257AB /* ReadMe.md */,
+				25F683162B875B0200AC3697 /* KandjiSystemUtility */,
+				25F683152B875B0200AC3697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F683152B875B0200AC3697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F683142B875B0200AC3697 /* KandjiSystemUtility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F683162B875B0200AC3697 /* KandjiSystemUtility */ = {
+			isa = PBXGroup;
+			children = (
+				25F683172B875B0200AC3697 /* AppDelegate.swift */,
+				25F683302B88B61500AC3697 /* ConnectedVolumesUsageView.swift */,
+				25F683322B88B7B700AC3697 /* ConnectedVolumesUsageDataSource.swift */,
+				25F683282B875BE600AC3697 /* CPUUsageDataSource.swift */,
+				25F6832A2B8760BA00AC3697 /* CPUUsageView.swift */,
+				25F6832C2B87C7AB00AC3697 /* MemoryUsageDataSource.swift */,
+				25F6832E2B87D52400AC3697 /* MemoryUsageView.swift */,
+				25F683192B875B0200AC3697 /* ViewController.swift */,
+				25F6831B2B875B0300AC3697 /* Assets.xcassets */,
+				25F6831D2B875B0300AC3697 /* Main.storyboard */,
+				25F683202B875B0300AC3697 /* KandjiSystemUtility.entitlements */,
+			);
+			path = KandjiSystemUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F683132B875B0200AC3697 /* KandjiSystemUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F683232B875B0300AC3697 /* Build configuration list for PBXNativeTarget "KandjiSystemUtility" */;
+			buildPhases = (
+				25F683102B875B0200AC3697 /* Sources */,
+				25F683112B875B0200AC3697 /* Frameworks */,
+				25F683122B875B0200AC3697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KandjiSystemUtility;
+			productName = KandjiSystemUtility;
+			productReference = 25F683142B875B0200AC3697 /* KandjiSystemUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F6830C2B875B0200AC3697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					25F683132B875B0200AC3697 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 25F6830F2B875B0200AC3697 /* Build configuration list for PBXProject "KandjiSystemUtility" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F6830B2B875B0200AC3697;
+			productRefGroup = 25F683152B875B0200AC3697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F683132B875B0200AC3697 /* KandjiSystemUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F683122B875B0200AC3697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F6831C2B875B0300AC3697 /* Assets.xcassets in Resources */,
+				25F6831F2B875B0300AC3697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F683102B875B0200AC3697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F6832D2B87C7AB00AC3697 /* MemoryUsageDataSource.swift in Sources */,
+				25F683312B88B61500AC3697 /* ConnectedVolumesUsageView.swift in Sources */,
+				25F6831A2B875B0200AC3697 /* ViewController.swift in Sources */,
+				25F683182B875B0200AC3697 /* AppDelegate.swift in Sources */,
+				25F6832B2B8760BA00AC3697 /* CPUUsageView.swift in Sources */,
+				25F683292B875BE600AC3697 /* CPUUsageDataSource.swift in Sources */,
+				25F683332B88B7B700AC3697 /* ConnectedVolumesUsageDataSource.swift in Sources */,
+				25F6832F2B87D52400AC3697 /* MemoryUsageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F6831D2B875B0300AC3697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F6831E2B875B0300AC3697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F683212B875B0300AC3697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F683222B875B0300AC3697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		25F683242B875B0300AC3697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KandjiSystemUtility/KandjiSystemUtility.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QP587772;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.KandjiSystemUtility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25F683252B875B0300AC3697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KandjiSystemUtility/KandjiSystemUtility.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5QP587772;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.KandjiSystemUtility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F6830F2B875B0200AC3697 /* Build configuration list for PBXProject "KandjiSystemUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F683212B875B0300AC3697 /* Debug */,
+				25F683222B875B0300AC3697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F683232B875B0300AC3697 /* Build configuration list for PBXNativeTarget "KandjiSystemUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F683242B875B0300AC3697 /* Debug */,
+				25F683252B875B0300AC3697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F6830C2B875B0200AC3697 /* Project object */;
+}
